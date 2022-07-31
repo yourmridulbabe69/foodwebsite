@@ -1,0 +1,69 @@
+/* NAVBAR */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar #logo {
+    top: 16px;
+}
+ul li {
+    font-size: 1.1rem;
+  }
+
+ul li a{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+ul li a:hover {
+    background-color: tomato;
+    color: black;
+    border: 2px solid tomato;
+    border-radius: 3px;
+
+}
+
+
+
+/* HOME */
+#home {
+    padding: 4px 10px;
+    height: 450px;
+}
+
+#home h1 {
+    font-size: 1.8rem;
+    position: relative;
+    top:0px;
+
+  }
+#home p{
+    font-size: 0.8rem;
+  }
+
+/* SERVICE */
+#service {
+    flex-direction: column;
+}
+
+/* CLIENT */
+#client {
+    height: auto;
+    position: relative;
+  }
+
+#boss .item img {
+    height: 40px;
+  }
+
+  #boss .item {
+    padding: 6px;
+    margin: 8px;
+  }
+
+/* footer */
+footer .copy {
+    text-align: center;
+    font-size: .8rem;
+  }

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Ibarra+Real+Nova&family=Uchen&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    top: 0px;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar #logo {
+    margin: 10px 22px;
+    position: relative;
+    top: 5px;
+}
+
+#navbar #logo img {
+    height: 35px;
+    margin: 3px 6px;
+    position: relative;
+    bottom: 6px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+ul li a {
+    color: whitesmoke;
+    display: block;
+    padding: 4px 9px;
+    text-decoration: none;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+ul li a:hover {
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 5px;
+
+}
+
+/* ----------------NAVBAR DONE----------- */
+#home {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 2px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#home::before {
+    content: "";
+    background: url(/picture/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+    height: 565px;
+}
+
+#home h1 {
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+
+#home p {
+    color: white;
+    /* font-size: 1.8rem; */
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    font-family: 'Uchen', serif;
+
+
+}
+
+#home button {
+    color: white;
+    background-color: tomato;
+    padding: 5px 24px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    margin-left: 20px;
+
+}
+
+#home button:hover {
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 5px;
+
+}
+
+/* .primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 45px;
+
+} */
+.h-primary {
+    font-size: 3.1rem;
+    padding: 12px;
+    
+font-family: 'Bree Serif', serif;
+
+
+}
+
+.secondary {
+    font-size: 1.8rem;
+    padding: 10px;
+    font-family: 'Uchen', serif;
+
+
+}
+
+.center {
+    text-align: center;
+}
+
+/* ------------HOME DOME--------- */
+section>h1 {
+    position: relative;
+}
+
+#service {
+    display: flex;
+}
+
+#service .box {
+    border: 2px solid brown;
+    padding: 8px 16px;
+    margin: 4px 8px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+
+    /* padding: 10px 22px; */
+
+}
+
+#service .box img {
+    height: 75px;
+    margin: auto;
+    display: block;
+}
+#service .box p {
+    font-family: 'Uchen', serif;
+
+}
+
+/* ----------Service Done-------- */
+
+#client{
+    height: 250px;
+    position: relative;
+
+}
+#client::before{
+    content: "";
+    background: url(/picture/customar.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+}
+#boss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#boss .item {
+    padding: 8px 16px;
+    margin: 6px 16px;
+}
+#boss .item img{
+    height: 80px;
+}
+
+footer{
+    color: wheat;
+    background-color: rgb(15, 13, 13);
+    padding: 4px 8px;
+    opacity: 0.7;
+}
+footer .copy{
+    text-align: center;
+}
